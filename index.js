@@ -31,7 +31,7 @@ function uploadFile(filePath) {
     console.log(`uploading ${filePath}`);
 
     const method = 'POST';
-    const uri = `https://fred.bugsplat.com/post/bp/crash/postBP.php`;
+    const uri = `https://${database}.bugsplat.com/post/bp/crash/postBP.php`;
     const formData = {
         database,
         prod,
